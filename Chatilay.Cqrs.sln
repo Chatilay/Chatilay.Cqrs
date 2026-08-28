@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6394A49E-CB06-49AA-8D3E-75FC2CD87FD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chatilay.Cqrs", "src\Chatilay.Cqrs\Chatilay.Cqrs.csproj", "{06292E65-ED60-48BD-B7F5-DFE866EB146A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{984F7AB1-AA97-414F-8604-05C9C4AD0F10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chatilay.Cqrs.Tests", "tests\Chatilay.Cqrs.Tests\Chatilay.Cqrs.Tests.csproj", "{AF27CFB9-A109-4643-A28E-61077413F239}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06292E65-ED60-48BD-B7F5-DFE866EB146A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06292E65-ED60-48BD-B7F5-DFE866EB146A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06292E65-ED60-48BD-B7F5-DFE866EB146A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06292E65-ED60-48BD-B7F5-DFE866EB146A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF27CFB9-A109-4643-A28E-61077413F239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF27CFB9-A109-4643-A28E-61077413F239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF27CFB9-A109-4643-A28E-61077413F239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF27CFB9-A109-4643-A28E-61077413F239}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{06292E65-ED60-48BD-B7F5-DFE866EB146A} = {6394A49E-CB06-49AA-8D3E-75FC2CD87FD6}
+		{AF27CFB9-A109-4643-A28E-61077413F239} = {984F7AB1-AA97-414F-8604-05C9C4AD0F10}
+	EndGlobalSection
+EndGlobal

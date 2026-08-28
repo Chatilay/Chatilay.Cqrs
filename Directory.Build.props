@@ -1,0 +1,26 @@
+<Project>
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <LangVersion>latest</LangVersion>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+        <UseArtifactsOutput>true</UseArtifactsOutput>
+        <ArtifactsPath>$(MSBuildThisFileDirectory)artifacts</ArtifactsPath>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <Authors>Ibrahim Hates</Authors>
+        <Company>Chatilay</Company>
+        <Product>Chatilay.Cqrs</Product>
+        <Version>0.1.0-preview.1</Version>
+        <Copyright>Copyright (c) 2026 Chatilay</Copyright>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageProjectUrl>https://github.com/Chatilay/Chatilay.Cqrs</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/Chatilay/Chatilay.Cqrs</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    </PropertyGroup>
+
+</Project>
